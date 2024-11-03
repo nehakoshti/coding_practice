@@ -60,7 +60,8 @@ nums = [1,1,5]
 nextPermutation(nums)
 nums = [9, 5, 4, 3, 1]
 nextPermutation(nums)
-
+nums = [4,3,5,2,1]
+nextPermutation(nums)
 
 """solution trick : 4,3,5,2,1
   decreasing number in reverse order = 3  --> 4,_3_,5,2,1
