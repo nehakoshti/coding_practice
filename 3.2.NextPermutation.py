@@ -64,11 +64,14 @@ nums = [4,3,5,2,1]
 nextPermutation(nums)
 
 """solution trick : 4,3,5,2,1
-  decreasing number in reverse order = 3  --> 4,_3_,5,2,1
+
+  1. decreasing number in reverse order = 3  --> 4,_3_,5,2,1
   ele = index of 3 = 1
-  number bigger than 3 in its RHS = 5   --> 4,3,_5_,2,1
+  
+  2. **number just next bigger** than 3 in its RHS = 5   --> 4,3,_5_,2,1
   swap 3 and 5 --> 4,5,3,2,1
-  reverse entire array next to ele (2 to n)--> 4,5, 1,2,3 = answer
+  
+  3. reverse entire array next to ele (2 to n)--> 4,5, 1,2,3 = answer
   
 """
 
