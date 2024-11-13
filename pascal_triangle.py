@@ -24,4 +24,4 @@ for i in range(n):
     print()
 print(li)
 
-# O(n*log(n)) or O(n^2)  ---IDK mehh
+#  O(n^2)  
